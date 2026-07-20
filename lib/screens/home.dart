@@ -17,12 +17,12 @@ class HomeScreen extends StatelessWidget {
       Text(
         "👋 Good Morning!",
         style: TextStyle(
-          fontSize: 45,
+          fontSize: 40,
           fontWeight: FontWeight.bold,
         ),
       ),
 
-      SizedBox(height: 10),
+      SizedBox(height: 30),
 
       Text(
         "Let's stay on top of your schoolwork.",
