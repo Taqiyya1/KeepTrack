@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
       Text(
         "👋 Good Morning!",
         style: TextStyle(
-          fontSize: 30,
+          fontSize: 45,
           fontWeight: FontWeight.bold,
         ),
       ),
