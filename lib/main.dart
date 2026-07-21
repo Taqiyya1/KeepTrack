@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+
 import 'screens/home.dart';
+import 'screens/quests.dart';
+import 'screens/schedule.dart';
+import 'screens/progress.dart';
 
 void main() {
   runApp(const MyApp());
