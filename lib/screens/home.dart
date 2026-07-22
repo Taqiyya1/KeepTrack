@@ -18,13 +18,13 @@ class HomeScreen extends StatelessWidget {
     children: [
 
       // Date
-      const Text(
-        "MONDAY • JULY 20",
-        style: TextStyle(
-          fontSize: 16,
-          fontWeight: FontWeight.w600,
-        ),
-      ),
+      Text(
+  "${DateTime.now().month}/${DateTime.now().day}",
+  style: const TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w600,
+  ),
+),
 
       const SizedBox(height: 10),
 
