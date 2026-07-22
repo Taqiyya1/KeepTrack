@@ -4,6 +4,7 @@ import 'screens/home.dart';
 import 'screens/quests.dart';
 import 'screens/schedule.dart';
 import 'screens/progress.dart';
+import 'screens/onboarding.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const HomeScreen(),
+      home: const OnboardingScreen(),
     );
   }
 }
