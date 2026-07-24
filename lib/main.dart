@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'screens/home.dart';
-import 'screens/quests.dart';
-import 'screens/schedule.dart';
-import 'screens/progress.dart';
 import 'screens/onboarding.dart';
 
 void main() {

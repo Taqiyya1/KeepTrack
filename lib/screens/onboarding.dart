@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});
@@ -11,8 +12,18 @@ class OnboardingScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,        
           children: [
-            Icon(Icons.book, size: 100),
-            Text("KeepTrack 🚀"),
+            Icon(
+              Icons.school,
+              size: 100,
+            ),
+            
+            Text(
+              "KeepTrack",
+              style: GoogleFonts.comicRelief(
+                fontSize: 45,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
             Text("Your AI study companion"),
             ElevatedButton(
               onPressed: () {
